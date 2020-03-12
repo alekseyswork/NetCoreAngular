@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectName": "DatingApp.API",
+        "projectPath": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\oleksii.samofalov\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oleksii.samofalov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://artefact.mycaspiou.com/repository/AutoQALibs/": {},
+          "http://artefact.mycaspiou.com/repository/DevLibs/": {},
+          "http://artefact.mycaspiou.com/repository/ExtLibs/": {},
+          "http://artefact.mycaspiou.com/repository/IntLibs/": {},
+          "http://artefact.mycaspiou.com/repository/TestData/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
