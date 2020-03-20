@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "D:\\angular\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "D:\\angular\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "D:\\angular\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-        "packagesPath": "C:\\Users\\oleksii.samofalov\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\NetCoreAngular\\DatingApp\\DatingApp.API\\obj\\",
+        "projectPath": "D:\\angular\\NetCoreAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\main\\.nuget\\packages\\",
+        "outputPath": "D:\\angular\\NetCoreAngular\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\oleksii.samofalov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\main\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "http://artefact.mycaspiou.com/repository/AutoQALibs/": {},
-          "http://artefact.mycaspiou.com/repository/DevLibs/": {},
-          "http://artefact.mycaspiou.com/repository/ExtLibs/": {},
-          "http://artefact.mycaspiou.com/repository/IntLibs/": {},
-          "http://artefact.mycaspiou.com/repository/TestData/": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,10 +64,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
