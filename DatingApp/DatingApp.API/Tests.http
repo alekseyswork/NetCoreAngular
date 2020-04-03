@@ -1,1 +1,19 @@
 GET http://localhost:5000/api/values
+
+###
+POST http://localhost:5000/api/auth/register
+content-type: application/json
+
+{
+    "username": "Alex",
+    "password": "AlexPass"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+content-type: application/json
+
+{
+    "username": "Alex",
+    "password": "AlexPass"
+}
